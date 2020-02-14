@@ -1,2 +1,2 @@
-# utd-machine-learning-scratch
-Machine Learning implementation from scratch
+# Machine Learning Implementation from Scratch
+Logistic Regression, Linear Regression, Neural Network etc
