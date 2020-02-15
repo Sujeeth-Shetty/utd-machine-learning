@@ -1,2 +1,2 @@
 # Machine Learning Implementation from Scratch
-Logistic Regression, Linear Regression, Neural Network etc
+Logistic Regression, Linear Regression, SVM, Neural Network etc
