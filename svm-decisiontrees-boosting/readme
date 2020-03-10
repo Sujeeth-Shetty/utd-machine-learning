@@ -1,1 +1,24 @@
+Title: SGEMM GPU kernel performance
+1. Download datset from https://archive.ics.uci.edu/ml/datasets/SGEMM+GPU+kernel+performance
+2. execute the following files in the same order 
+	1) svm-gpu-runtime-classification.ipynb
+	2) decision-tree-gpu-runtime-classification.ipynb
+	3) boosting-gpu-runtime-classification.ipynb
+
+Note: The second file requires graphviz which can be installed by
+$ pip install graphviz
+If there is still an error set the environment variable to the path where graphviz is located. or
+run os.environ["PATH"] += os.pathsep + 'C:\\Users\\User\\.conda\\pkgs\\graphviz-2.38-hfd603c8_2\\Library\\bin\\graphviz'
+which is commented in the notebook
+ 
+----------------------------------------------------------------------------------------------
+
+Title: Bank Marketing UCI Dataset
+1. Download dataset from https://archive.ics.uci.edu/ml/machine-learning-databases/00222/
+2. extract the zip and place bank-additional-full.csv & bank-additional.csv in working directory
+3. Run the folowing notebook files
+	1)svm-bank-marketing-classification.ipynb
+	2)decision-tree-bank-marketing-classification.ipynb
+	3)boosting-bank-marketing-classification.ipynb
+
 
