@@ -1,2 +1,8 @@
 # Machine Learning Implementation from Scratch
-Logistic Regression, Linear Regression, SVM, Neural Network etc
+The objective of this project is to implement Logistic Regression, Linear Regression, Neural Network, Support Vector Machine, Decision Trees & Boosting to perform binary classification on two Datasets. This report details the various experiments conducted using the two datasets to understand the effect of the cross-validation and various hyperparameters. It also shows the effect of the use of various independent variables/features in selecting the best model.
+
+About the Data:
+
+The first data set is of SGEMM GPU kernel performance which consists of 14 features and 241600 records. This data set measures the running time of a matrix-matrix product A*B = C, where all matrices have size 2048 x 2048, using a parameterizable SGEMM GPU kernel with 261400 possible parameter combinations. Out of 14 features, the first 10 are ordinal and can only take up to 4 different powers of two values, and the 4 last variables are binary.
+
+The second dataset is Bank Marketing UCI Dataset published by Banco de Portugal which consists of 20 features and 45307 records. This dataset is used to measures the success of Bank Telemarketing where the binary classification goal is to predict if the client will subscribe to a bank term deposit. There are few missing values, and all are coded with the “unknown” label. These missing values are treated as a possible class label. One of the reasons for selecting this dataset is because of the imbalance in class distribution. This would help in understanding the caveats when trying to leverage cross-validation, bias associated with classification output and risk associated with false-negative or false-positive predictions.
